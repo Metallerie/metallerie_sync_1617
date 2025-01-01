@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "metallerie_sync_1617",
+    'name': "metallerie_sync_1618",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "syncronisation odoo V16 V18",
 
     'description': """
 Module pour la syncronisation de Odoo version 16 vers la version 18
