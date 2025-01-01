@@ -5,20 +5,20 @@
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
     'description': """
-Long description of module's purpose
+Module pour la syncronisation de Odoo version 16 vers la version 18
     """,
 
     'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'website': "https://www.metallerie.xyz",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '18.0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','account','sale_management','website','stock','purchase','website_sale','mrp','project_todo],
 
     # always loaded
     'data': [
